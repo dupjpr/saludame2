@@ -22,7 +22,7 @@ require"sinatra"
 get "/" do
     "Hola desconocido!"
 end
-get  '/:nombre' do
+get  '/:brand/:nombre' do
 
   
 
